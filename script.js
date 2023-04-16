@@ -23,7 +23,7 @@ function mouseClicked() {
 }
 
 function touchStarted() {
-    spawnParticles(touchX, touchY, 10);
+    spawnParticles(touches[0].x, touches[0].y, 10);
 }
 
 function windowResized() {
