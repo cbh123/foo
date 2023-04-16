@@ -1,0 +1,16 @@
+{
+  "name": "live-tic-tac-toe",
+  "version": "1.0.0",
+  "description": "A live multiplayer tic-tac-toe game.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.4.1"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
