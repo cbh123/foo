@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            max-width: 200px;
+            max-height: 200px;
+            margin-bottom: 10px;
+        }
+
+        .gallery-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+        }
+
+        .gallery-item .caption {
+            font-size: 16px;
+            margin-top: 5px;
+            text-align: center;
+        }
+    </style>
+    <title>Image Gallery</title>
+</head>
+<body>
+    <h1>Image Gallery</h1>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/200x200" alt="placeholder image 1">
+            <div class="caption">Image 1</div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/200x200" alt="placeholder image 2">
+            <div class="caption">Image 2</div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/200x200" alt="placeholder image 3">
+            <div class="caption">Image 3</div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/200x200" alt="placeholder image 4">
+            <div class="caption">Image 4</div>
+        </div>
+    </div>
+</body>
+</html>
