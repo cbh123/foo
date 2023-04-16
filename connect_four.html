@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Four</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .game-board {
+            display: grid;
+            grid-template-columns: repeat(7, 50px);
+            grid-template-rows: repeat(6, 50px);
+            grid-gap: 5px;
+            justify-content: center;
+            align-content: center;
+        }
+        .cell {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 1px solid #000;
+            background-color: #fff;
+            cursor:pointer;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .player1 {
+            background-color: #f00;
+        }
+        .player2 {
+            background-color: #00f;
+        }
+        p {
+            font-size: 24px;
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p id="status">Player 1's Turn.</p>
+        <div class="game-board" id="gameBoard"></div>
+    </div>
+    <script>
+        // JavaScript code for the Connect Four game and AI will go here.
+    </script>
+</body>
+</html>
